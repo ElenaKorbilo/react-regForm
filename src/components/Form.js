@@ -110,7 +110,7 @@ export default class Form extends Component {
             checked={this.state.gender === "male"}
             onChange={this.handleChangeInput}
           />
-          M
+          <label>M</label>
           <input
             type="radio"
             name="gender"
@@ -118,7 +118,7 @@ export default class Form extends Component {
             checked={this.state.gender === "female"}
             onChange={this.handleChangeInput}
           />
-          F
+          <label>F</label>
         </div>
         <div>
           <label htmlFor="age">Age</label>
